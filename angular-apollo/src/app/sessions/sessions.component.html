@@ -1,1 +1,9 @@
-<p>sessions works!</p>
+<div *ngFor="let session of sessions | async">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">title: {{session.title}}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">day: {{session.day}} </h6>
+            <p class="card-text">description: {{session.description}}</p>
+        </div>
+    </div>
+</div>
