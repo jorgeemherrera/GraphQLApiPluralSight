@@ -23,7 +23,6 @@ export class SessionsComponent implements OnInit {
             id
             title
             description
-            day
           }
         }
       `
